@@ -1,0 +1,121 @@
+/* 
+██████╗ ███████╗███████╗███████╗████████╗    
+██╔══██╗██╔════╝██╔════╝██╔════╝╚══██╔══╝    
+██████╔╝█████╗  ███████╗█████╗     ██║       
+██╔══██╗██╔══╝  ╚════██║██╔══╝     ██║       
+██║  ██║███████╗███████║███████╗   ██║       
+╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝   ╚═╝       
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato-Light", "sans-serif";
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+nav {
+  background-color: #008170;
+  height: 8vh;
+}
+
+li {
+  margin: 25px 30px;
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  font-weight: 20px;
+  margin: 30px;
+  display: inline-block;
+}
+
+h1 {
+  margin: 2rem 30px;
+}
+
+p {
+  margin: 1rem 20px;
+}
+
+nav ul a {
+  color: rgb(243, 60, 60);
+  border: black solid 1px;
+  background-color: rgb(152, 204, 204);
+  padding: 8px;
+}
+
+h2 {
+  margin: 1rem 20px;
+}
+input {
+  display: block;
+  margin: 10px 30px;
+}
+select {
+  display: block;
+  margin: 10px 30px;
+}
+label {
+  display: block;
+  margin: 0px 30px;
+  font-size: 1.5rem;
+}
+textarea {
+  margin: 10px 30px;
+}
+
+#croix {
+  background-color: red;
+  padding: 5px;
+  color: white;
+  border: solid 1px black;
+}
+
+#new-note {
+  font-size: 2rem;
+  background-color: rgb(236, 226, 226);
+  cursor: pointer;
+  margin-top: 2rem;
+  border: solid 1px black;
+}
+
+ul {
+  margin: 20px 0px;
+}
+
+#submit {
+padding: 10px 20px;
+}
+
+.error {
+color: red;
+border: solid 1px black;
+padding: 5px;
+width: 10%;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0; 
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
