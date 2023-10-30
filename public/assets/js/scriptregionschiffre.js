@@ -5,11 +5,11 @@ if (window.location.href === "http://localhost/regions") {
     images.forEach((image) => {
       image.addEventListener("click", function () {
         if (ascending) {
-          image.src = "public/assets/images/chevron-down-solid.svg";
-          image.alt = "fleche-bas";
-        } else {
           image.src = "public/assets/images/chevron-up-solid.svg";
           image.alt = "fleche-haut";
+        } else {
+          image.src = "public/assets/images/chevron-down-solid.svg";
+          image.alt = "fleche-bas";
         }
         ascending = !ascending;
       });

@@ -6,11 +6,11 @@ document.addEventListener("DOMContentLoaded", function () {
     images.forEach((image) => {
       image.addEventListener("click", function () {
         if (ascendingImages) {
-          image.src = "public/assets/images/chevron-down-solid.svg";
-          image.alt = "fleche-bas";
-        } else {
           image.src = "public/assets/images/chevron-up-solid.svg";
           image.alt = "fleche-haut";
+        } else {
+          image.src = "public/assets/images/chevron-down-solid.svg";
+          image.alt = "fleche-bas";
         }
         ascendingImages = !ascendingImages;
       });
