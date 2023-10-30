@@ -1,7 +1,7 @@
 <?php require 'partials/header.php';
 
 if ($result->num_rows > 0) {
-    echo "<table>
+    echo "<table> 
             <tr>
                 <th>Régions<img class=toggleOrderImage id=toggleOrderRegionButton src=public/assets/images/chevron-down-solid.svg alt=fleche-bas></th>
                 <th>Nombre de pays<img class=toggleOrderImage id=toggleOrderNombreDePaysButton src=public/assets/images/chevron-down-solid.svg alt=fleche-bas></th>
