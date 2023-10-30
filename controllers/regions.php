@@ -8,4 +8,4 @@ $sql = "SELECT r.name AS region, COUNT(c.country_id) AS nombre_de_pays
 
 $result = $conn->query($sql);
 
-include  'views/stats.view.php';
+include  'views/regions.view.php';

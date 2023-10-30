@@ -8,4 +8,4 @@ $sql = "SELECT c.name AS country, r.name AS region, t.name AS continent
 
 $result = $conn->query($sql);
 
-include  'views/pays.view.php';
+include  'views/nations.view.php';

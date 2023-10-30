@@ -2,6 +2,6 @@
 
 $routes = [
     '/' => 'controllers/index.php',
-    '/pays' => 'controllers/pays.php',
-    '/stats' => 'controllers/stats.php',
+    '/nations' => 'controllers/nations.php',
+    '/regions' => 'controllers/regions.php',
 ];
