@@ -125,5 +125,10 @@ table tr:nth-child(odd){
 
 table tr:first-child {
 color: rgb(12, 166, 218);
+font-size: 1.5rem;
 text-decoration: underline;
+}
+table tr img {
+width: 15px;
+margin: 0px 5px;
 }

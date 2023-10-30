@@ -3,8 +3,8 @@
 if ($result->num_rows > 0) {
     echo "<table>
             <tr>
-                <th>Région</th>
-                <th>Nombre de pays</th>
+                <th>Région<img class=toggleOrderImage id=toggleOrderRegionButton src=public/assets/images/chevron-down-solid.svg alt=fleche-bas></th>
+                <th>Nombre de pays<img class=toggleOrderImage id=toggleOrderNombreDePaysButton src=public/assets/images/chevron-down-solid.svg alt=fleche-bas></th>
             </tr>";
 
     while ($row = $result->fetch_assoc()) {

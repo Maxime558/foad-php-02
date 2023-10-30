@@ -7,6 +7,9 @@
     <title>Index</title>
     <link rel="stylesheet" href="public/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="public/assets/images/favicon.ico">
+    <script src="public/assets/js/scriptregionschiffre.js" defer></script>
+    <script src="public/assets/js/scriptregions.js" defer></script>
+    <script src="public/assets/js/scriptnations.js" defer></script>
 </head>
 <?php require 'nav.php'; ?>
 
