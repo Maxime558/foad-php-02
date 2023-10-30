@@ -1,7 +1,7 @@
 <nav>
     <ul>
         <li><a href="/">Index</a></li>
-        <li><a href="/pays">Pays</a></li>
-        <li><a href="/stats">Stats</a></li>
+        <li><a href="/pays">Nations</a></li>
+        <li><a href="/stats">Regions</a></li>
     </ul>
 </nav>
